@@ -11,7 +11,8 @@
 
 1. Login to GitHub Account
 2. Clone the repository (You can fork or upload too)
-3. In the repository, create a new Codespaces Environment
+    - If you go with codespaces option: In the repository, create a new Codespaces Environment.
+    - If you go with local execution, open the project in your code editor.
 4. Run the application
 
 ## Part 2
