@@ -86,6 +86,7 @@ fastjsonschema==2.16.1
 filelock==3.16.1
 Fiona==1.9.3
 Flask==2.2.3
+flask-cors==5.0.1
 flatbuffers==23.5.26
 fonttools==4.37.1
 fortranformat==2.0.0

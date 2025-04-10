@@ -1,8 +1,6 @@
 import React, { useState, useEffect,useRef } from 'react';
 import { Form, Button, Table, Container, Row, Col  } from 'react-bootstrap';
 import axios from 'axios';
-
-// import './App.css';
 import './App.css';
 
 const URL = "/api";

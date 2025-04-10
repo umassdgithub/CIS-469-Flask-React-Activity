@@ -17,7 +17,7 @@
 ## Part 2
 
 1. Use npm run build to make the dist folder: ```npm run build```
-2. Check the python code, make modification to the directories such that flask can find the dist folder of react.
+2. Check the python code, <mark> make modification to the directories such that flask can find the dist folder of react </mark>.
 
 ```python 
         app = Flask(__name__, 
@@ -42,14 +42,14 @@ in the browser open `http://localhost:5000/init` to initiate the database.
 
 The back end of the application is based on Flask library. The steps to run the application are as follows:
 
-1. Initiate the virtual environment 
+1. Initiate the virtual environment:
 ```python3 -m venv env```
-2. Activate the env
+2. Activate the env:
 in Windows run ```env\source\activate.bat```
 in  Mac OS: ```source env/bin/activate```
-3. install the needed libraries
+3. install the needed libraries:
 ```pip install -r requirements.txt```
-4. run the application
+4. run the application:
 ```python app.py``` (note that python should be installed on your machine, or you can run it on a virtual environment/GitHub Codespaces)
 
 ## Database

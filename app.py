@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify,send_file, render_template
 import sqlite3
 from flask_cors import CORS, cross_origin
-import os
 
 
 app = Flask(__name__)
