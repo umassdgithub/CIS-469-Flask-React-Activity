@@ -19,7 +19,6 @@ asttokens==2.0.8
 astunparse==1.6.3
 async-timeout==4.0.2
 attrs==22.1.0
-avlpy @ file:///Users/amirakhavan/Downloads/OpenVSP-3.40.1-MacOS/python/AvlPy
 backcall==0.2.0
 beautifulsoup4==4.9.3
 binaryornot==0.4.4
