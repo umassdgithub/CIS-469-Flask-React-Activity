@@ -56,7 +56,7 @@ in  Mac OS: ```source env/bin/activate```
 
 The database is based on SQLite. If the database does not exist, it will be created automatically.
 You just need to visit this endpoint to create the database:
-```http127.0.0.1:5002/init```
+```http://127.0.0.1:5000/init```
 
 ## Frontend -You need a new terminal to run the application
 
@@ -65,3 +65,22 @@ The frontend is based on React library. The steps to run the application are as 
  1. Open the frontend app by using `cd _frontend/users/`
  2. Instal dependencies for react.js `npm i`
  3. to build the static version of react application `npm run build`
+
+ ## Important Configuration
+
+The configurations in `vite.config.js` are crucial for the settings needed in the production. Check the current settings, and if needed modify them:
+
+```js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  server:{
+    proxy:{
+      '/api':"http://127.0.0.1:5000"
+    }
+  },
+  plugins: [react()],
+})
+```
