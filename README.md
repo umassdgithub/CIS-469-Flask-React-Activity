@@ -18,7 +18,8 @@
 
 1. Use npm run build to make the dist folder: ```npm run build```
 2. Check the python code, <mark> make modification to the directories such that flask can find the dist folder of react </mark>.
-
+    - The `template_folder` is the one which the `index.html` file is rendered from
+    - The `static_folder` is the host for the static files, which `index.html` will need to render.
 ```python 
         app = Flask(__name__, 
                     template_folder='./',
