@@ -2,10 +2,10 @@
 
 ### Deliverables
 
-- Full project in Zip Folder, it should contain:
-    - It should have screenshots showing functional version
-    - It should run without any issue, if I run: ```python app.py```
-- Screenshot of the running project on Codesandbox, Codespaces or render
+- [ ] Full project in Zip Folder, it should contain:
+    - [ ] It should have screenshots showing functional version
+    - [ ] It should run without any issue, if I run: ```python app.py```
+- [ ] Screenshot of the running project on Codesandbox, Codespaces or render
 
 ## Part 1
 
