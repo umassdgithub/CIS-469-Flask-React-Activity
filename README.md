@@ -2,10 +2,10 @@
 
 ### Deliverables
 
-- Full project in Zip Folder, it should contain:
-    - It should have screenshots showing functional version
-    - It should run without any issue, if I run: ```python app.py```
-- Screenshot of the running project on Codesandbox, Codespaces or render
+- [ ] Full project in Zip Folder, it should contain:
+    - [ ] It should have screenshots showing functional version
+    - [ ] It should run without any issue, if I run: ```python app.py```
+- [ ] Screenshot of the running project on Codesandbox, Codespaces or render
 
 ## Part 1
 
@@ -26,7 +26,7 @@
 ```
 
 3. Run the database initiator from the browser:
-in the browser open `http://localhost:5000/init` to initiate the database.
+in the browser open `http://127.0.0.1:5000/init` to initiate the database.
 
 4. Examine if the web app is functioning normally.
 
