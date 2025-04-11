@@ -2,15 +2,11 @@ from flask import Flask, request, jsonify,send_file, render_template
 import sqlite3
 from flask_cors import CORS, cross_origin
 
-
-app = Flask(__name__)
-# app = Flask(__name__, 
-#             template_folder='./',
-#             static_folder='./')
+app = Flask(__name__,
+            template_folder='./_frontend/users/dist',
+            static_folder='./_frontend/users/dist/asssets')
 
 CORS(app)
-
-
 
 # create the database first
 @app.route('/init', methods=['GET'])
